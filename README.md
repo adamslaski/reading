@@ -1,3 +1,14 @@
+## Reading excersise
+This project is creted for my five years old to help her learn to read. 
+
+## Pixbay
+
+All sounds and images comes from pixabay.com. Thank you all Pixbay contributors! Full license is available here: https://pixabay.com/service/terms/
+
+## License
+Everything except for sounds and images is distributed under Eclipse Public License - v 2.0.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +55,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
