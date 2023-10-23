@@ -1,4 +1,4 @@
-## Reading excersise
+## Reading exercises
 This project is creted for my five years old to help her learn to read. 
 
 ## Pixbay
