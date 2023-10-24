@@ -67,6 +67,37 @@ import strawberry from './strawberry-36949.svg';
 import table from './table-23627.svg';
 import watermelon from './watermelon-154510.svg';
 import zebra from './zebra-1296163.svg';
+import armchairs from './armchairs-2022418.svg';
+import army from './army-160086.svg';
+import button from './button-156848.svg';
+import camping from './camping-1293100.svg';
+import candy from './candy-1295008.svg';
+import crayfish from './crayfish-2027718.svg';
+import cut from './cut-1297554.svg';
+import dental from './dental-care-2516133.svg';
+import dove from './dove-304859.svg';
+import earthworm from './earthworm-151033.svg';
+import eraser from './eraser-23659.svg';
+import farmer from './farmer-148325.svg';
+import hair from './hair-comb-2702561.svg';
+import kettle from './kettle-6900323.svg';
+import knight from './knight-3166110.svg';
+import lemons from './lemons-310283.svg';
+import lightbulb from './lightbulb-311119.svg';
+import mushroom from './mushroom-23893.svg';
+import music from './music-99166.svg';
+import peas from './peas-575815.svg';
+import rake from './rake-1300347.svg';
+import rocket from './rocket-312767.svg';
+import roundabout from './roundabout-37887.svg';
+import seal from './seal-48353.svg';
+import shield from './shield-308792.svg';
+import ship from './ship-311301.svg';
+import skier from './skier-33359.svg';
+import tombstone from './tombstone-1626467.svg';
+import towel from './towel-24519.svg';
+import turtle from './turtle-1298747.svg';
+import whiteboard from './whiteboard-303145.svg';
 
 export type Idea = {
   word: string,
@@ -349,5 +380,129 @@ export const ideas: Idea[] = [
   {
     word: "zebra",
     url: zebra
+  },
+  {
+    word: "fotel",
+    url: armchairs
+  },
+  {
+    word: "żołnierz",
+    url: army
+  },
+  {
+    word: "guzik",
+    url: button
+  },
+  {
+    word: "namiot",
+    url: camping
+  },
+  {
+    word: "cukierek",
+    url: candy
+  },
+  {
+    word: "rak",
+    url: crayfish
+  },
+  {
+    word: "nożyczki",
+    url: cut
+  },
+  {
+    word: "ząb",
+    url: dental
+  },
+  {
+    word: "gołąb",
+    url: dove
+  },
+  {
+    word: "robak",
+    url: earthworm
+  },
+  {
+    word: "gumka",
+    url: eraser
+  },
+  {
+    word: "rolnik",
+    url: farmer
+  },
+  {
+    word: "grzebień",
+    url: hair
+  },
+  {
+    word: "czajnik",
+    url: kettle
+  },
+  {
+    word: "rycerz",
+    url: knight
+  },
+  {
+    word: "cytryny",
+    url: lemons
+  },
+  {
+    word: "żarówka",
+    url: lightbulb
+  },
+  {
+    word: "grzyb",
+    url: mushroom
+  },
+  {
+    word: "radio",
+    url: music
+  },
+  {
+    word: "groszek",
+    url: peas
+  },
+  {
+    word: "grabie",
+    url: rake
+  },
+  {
+    word: "rakieta",
+    url: rocket
+  },
+  {
+    word: "rondo",
+    url: roundabout
+  },
+  {
+    word: "foka",
+    url: seal
+  },
+  {
+    word: "tarcza",
+    url: shield
+  },
+  {
+    word: "żaglówka",
+    url: ship
+  },
+  {
+    word: "narty",
+    url: skier
+  },
+  {
+    word: "grób",
+    url: tombstone
+  },
+  {
+    word: "ręcznik",
+    url: towel
+  },
+  {
+    word: "żółw",
+    url: turtle
+  },
+  {
+    word: "tablica",
+    url: whiteboard
   },
 ]
