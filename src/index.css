@@ -17,3 +17,13 @@ body {
   font-size: 150px;
   font-variant-caps: small-caps;
 }
+
+div.levelSettings {
+  margin: 15px;
+}
+
+span.levelSettings {
+  background-color: #c48691;
+  padding: 9px;
+  border-radius: 6px;
+}

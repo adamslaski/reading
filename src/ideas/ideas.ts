@@ -75,7 +75,7 @@ import candy from './candy-1295008.svg';
 import crayfish from './crayfish-2027718.svg';
 import cut from './cut-1297554.svg';
 import dental from './dental-care-2516133.svg';
-import dove from './dove-304859.svg';
+import dove from './dove-304859-1.svg';
 import earthworm from './earthworm-151033.svg';
 import eraser from './eraser-23659.svg';
 import farmer from './farmer-148325.svg';
@@ -506,3 +506,12 @@ export const ideas: Idea[] = [
     url: whiteboard
   },
 ]
+
+const charsToIdeas = ideas.reduce((acc: Map<string, Idea[]>, v, i) => {
+  const letter = v.word.charAt(0);
+  const old = acc.get(letter) || [];
+  acc.set(letter, [...old, v])
+  return acc;
+}, new Map());
+
+export const groupedIdeas = Array.from(charsToIdeas.values()).filter(l => l.length >= 3);
