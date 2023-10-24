@@ -8,10 +8,11 @@ body {
 
 .excersizeContainer {
   width: 600px;
-  margin: 100px auto;
+  margin: 10px auto 0;
 }
 
 .correctAnswer {
+  margin-top: 100px;
   text-align: center;
   font-size: 150px;
   font-variant-caps: small-caps;

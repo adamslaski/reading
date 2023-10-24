@@ -33,6 +33,40 @@ import bear from './teddy-bear-447422.svg';
 import tomato from './tomato-153272.svg';
 import wheel from './wheel-307316.svg';
 import window from './window-1975938.svg';
+import airplane from './airplane-307909.svg';
+import apple from './apple-4967157.svg';
+import automobile from './automobile-1300467.svg';
+import avocado from './avocado-5130214.svg';
+import birthdayCake from './birthdayCake-308576.svg';
+import broccoli from './broccoli-40295.svg';
+import cabinet from './cabinet-575369.svg';
+import cake from './cake-307466.svg';
+import carrot from './carrot-575529.svg';
+import cone from './cone-313944.svg';
+import cucumber from './cucumber-160100.svg';
+import deer from './deer-48417.svg';
+import dolphin from './dolphin-6814871.svg';
+import duck from './duck-2024030.svg';
+import elephant from './elephant-24722.svg';
+import frog from './frog-.svg';
+import giraffe from './giraffe-48393.svg';
+import goldfish from './goldfish-30837.svg';
+import laptop from './laptop-33521.svg';
+import mobile from './mobile-157065.svg';
+import monkey from './monkey-474147.svg';
+import mouse from './mouse-303878.svg';
+import onion from './onion-576534.svg';
+import parrot from './parrot-990222.svg';
+import pepper from './pepper-33623.svg';
+import pineapple from './pineapple-1300157.svg';
+import pumpkin from './pumpkin-151425.svg';
+import railroad from './railroad-159321.svg';
+import shoes from './shoes-157716.svg';
+import stork from './stork-2023318.svg';
+import strawberry from './strawberry-36949.svg';
+import table from './table-23627.svg';
+import watermelon from './watermelon-154510.svg';
+import zebra from './zebra-1296163.svg';
 
 export type Idea = {
   word: string,
@@ -180,4 +214,140 @@ export const ideas: Idea[] = [
     word: "okno",
     url: window
   },  
+  {
+    word: "samolot",
+    url: airplane
+  },
+  {
+    word: "jabłko",
+    url: apple
+  },
+  {
+    word: "auto",
+    url: automobile
+  },
+  {
+    word: "awokado",
+    url: avocado
+  },
+  {
+    word: "tort",
+    url: birthdayCake
+  },
+  {
+    word: "brokuł",
+    url: broccoli
+  },
+  {
+    word: "szafa",
+    url: cabinet
+  },
+  {
+    word: "ciasto",
+    url: cake
+  },
+  {
+    word: "marchewka",
+    url: carrot
+  },
+  {
+    word: "lody",
+    url: cone
+  },
+  {
+    word: "ogórek",
+    url: cucumber
+  },
+  {
+    word: "jeleń",
+    url: deer
+  },
+  {
+    word: "delfin",
+    url: dolphin
+  },
+  {
+    word: "kaczka",
+    url: duck
+  },
+  {
+    word: "słoń",
+    url: elephant
+  },
+  {
+    word: "żaba",
+    url: frog
+  },
+  {
+    word: "żyrafa",
+    url: giraffe
+  },
+  {
+    word: "ryba",
+    url: goldfish
+  },
+  {
+    word: "komputer",
+    url: laptop
+  },
+  {
+    word: "telefon",
+    url: mobile
+  },
+  {
+    word: "małpa",
+    url: monkey
+  },
+  {
+    word: "mysz",
+    url: mouse
+  },
+  {
+    word: "cebula",
+    url: onion
+  },
+  {
+    word: "papuga",
+    url: parrot
+  },
+  {
+    word: "papryka",
+    url: pepper
+  },
+  {
+    word: "ananas",
+    url: pineapple
+  },
+  {
+    word: "dynia",
+    url: pumpkin
+  },
+  {
+    word: "pociąg",
+    url: railroad
+  },
+  {
+    word: "buty",
+    url: shoes
+  },
+  {
+    word: "bocian",
+    url: stork
+  },
+  {
+    word: "truskawka",
+    url: strawberry
+  },
+  {
+    word: "stół",
+    url: table
+  },
+  {
+    word: "arbuz",
+    url: watermelon
+  },
+  {
+    word: "zebra",
+    url: zebra
+  },
 ]
