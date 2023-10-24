@@ -21,7 +21,10 @@ type Riddle = {
 }
 
 function shuffle<T>(arr: T[]): T[] { 
-return [...arr].sort(() =>Math.random() - 0.5);
+  const numbers = new Uint32Array(arr.length);
+  window.self.crypto.getRandomValues(numbers);
+  const result = arr.map((v, i) => ({v, i: numbers[i]})); 
+  return result.sort((a,b) => a.i - b.i).map(o => o.v);
 }
 
 const getRiddle: (() => Riddle) = () => {
@@ -40,8 +43,8 @@ function App() {
   const [riddle, setRiddle] = useState(getRiddle());
   return (
     <div className="App">
+      <div className='correctAnswer'>{riddle.correctAnswer.word}</div>
       <div className='excersizeContainer'>
-        <div className='correctAnswer'>{riddle.correctAnswer.word}</div>
         {riddle.options.map(option => option === riddle.correctAnswer 
           ? Option(option, () => { playFanfare(); setRiddle(getRiddle())} ) 
           : Option(option, () => playError()))}
