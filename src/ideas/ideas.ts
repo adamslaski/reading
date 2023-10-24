@@ -137,10 +137,6 @@ export const ideas: Idea[] = [
     url: heart
   },
   {
-    word: "dom",
-    url: home
-  },
-  {
     word: "oko",
     url: iris
   },
