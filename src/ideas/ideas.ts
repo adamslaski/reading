@@ -32,7 +32,7 @@ import star from './star-158502.svg';
 import bear from './teddy-bear-447422.svg';
 import tomato from './tomato-153272.svg';
 import wheel from './wheel-307316.svg';
-import window from './window-1975938(1).svg';
+import window from './window-1975938.svg';
 
 export type Idea = {
   word: string,
@@ -151,10 +151,6 @@ export const ideas: Idea[] = [
   {
     word: "pingwin",
     url: penguin
-  },
-  {
-    word: "pies",
-    url: puppy
   },
   {
     word: "konik",
