@@ -1,4 +1,3 @@
-import { type } from 'os';
 import { Idea, ideas, groupedIdeas } from './ideas/ideas';
 
 type Riddle = {
