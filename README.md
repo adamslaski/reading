@@ -1,5 +1,6 @@
 ## Reading exercises
 This project is creted for my five years old to help her learn to read. 
+Click to play: https://adamslaski.github.io/reading/
 
 ## Pixbay
 
